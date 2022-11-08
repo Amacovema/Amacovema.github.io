@@ -1,5 +1,3 @@
-// Capturar n, validar que sea un entero en el rango de 0 a 9 y usando ciclos producir un triangulo
-
 package parcial1.tarea4;
 
 import java.util.Scanner;
@@ -13,8 +11,12 @@ public class Triangulo {
         piramide.close();
 
         System.out.println();
-        for (int i = 1; i < n; i++ ){
+        for (int i = 1; i < n+1; i++ ){
             for (int j = 1; j < n; j++){
+                System.out.print(" ");
+            }
+
+            for (int l = 9; l >= (i); l=l-1){
                 System.out.print(" ");
             }
 
